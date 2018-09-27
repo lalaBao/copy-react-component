@@ -1,0 +1,42 @@
+.ant-menu-submenu>.ant-menu {
+  background-color: #2d383d;
+  color: #fff;
+}
+
+.ant-menu-item {
+  padding-top: 0 !important;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #2d383d;
+}
+
+/*司机管理固定的表格的滚轮清除-上边的*/
+
+.ant-table-fixed-header .ant-table-scroll .ant-table-header {
+  overflow: hidden !important;
+  padding-bottom: 20px !important;
+  margin-bottom: -20px !important;
+}
+
+/*!*司机管理固定的表格的滚轮清除-左边的*!*/
+
+.ant-table-fixed-header .ant-table-fixed-left ::-webkit-scrollbar {
+  width: 0;
+}
+
+/*菜单栏的表格的滚轮清除*/
+
+.ant-menu ::-webkit-scrollbar {
+  width: 0;
+}
+
+/*菜单栏的字体还是要用14的，12太小了*/
+
+.ant-menu-vertical .ant-menu-item, .ant-menu-vertical-left .ant-menu-item, .ant-menu-vertical-right .ant-menu-item, .ant-menu-inline .ant-menu-item, .ant-menu-vertical .ant-menu-submenu-title, .ant-menu-vertical-left .ant-menu-submenu-title, .ant-menu-vertical-right .ant-menu-submenu-title, .ant-menu-inline .ant-menu-submenu-title {
+  font-size: 13px;
+}
+
+.has-error .ant-form-explain, .has-error .ant-form-split{
+  padding-top:8px;
+}

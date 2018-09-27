@@ -1,0 +1,55 @@
+{
+  "name": "bangbang",
+  "version": "0.0.1",
+  "description": "copy-react-componet",
+  "main": "index.js",
+  "bin": {
+    "bangbang": "bin/bangbang.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "babel-eslint": "~7.1.1",
+    "chalk": "^2.3.0",
+    "commander": "^2.12.2",
+    "consolidate": "^0.15.0",
+    "escodegen": "^1.11.0",
+    "eslint": "~3.19.0",
+    "eslint-config-airbnb-base": "~11.1.3",
+    "eslint-friendly-formatter": "~3.0.0",
+    "eslint-loader": "~1.7.1",
+    "eslint-plugin-html": "~3.0.0",
+    "eslint-plugin-import": "~2.2.0",
+    "esprima": "^4.0.0",
+    "estraverse": "^4.2.0",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.0.11",
+    "inquirer": "^4.0.2",
+    "metalsmith": "^2.3.0",
+    "path": "^0.12.7",
+    "prettier-eslint": "^8.4.0"
+  },
+  "devDependencies": {
+    "prettier": "1.14.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalaBao/copy-react-component.git"
+  },
+  "keywords": [
+    "copy",
+    "react",
+    "component"
+  ],
+  "author": "lalaBao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lalaBao/copy-react-component/issues"
+  },
+  "homepage": "https://github.com/lalaBao/copy-react-component#readme"
+}
